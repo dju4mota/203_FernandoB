@@ -1,6 +1,5 @@
 package strategy.comparator;
 
-import java.util.Comparator;
 
 public class Animal implements Comparable<Animal> {
     private Long id;

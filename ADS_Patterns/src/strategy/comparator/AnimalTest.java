@@ -25,6 +25,7 @@ class AnimalTest {
         listaDeAnimais.add(a6);
 
         listaDeAnimais.sort(new ComparadorPorNome());
+        System.out.println(Collections.addAll(listaDeAnimais));
         System.out.println("Ordenado por nome: ") ;
         listaDeAnimais.forEach(System.out::println);
     }
@@ -45,6 +46,7 @@ class AnimalTest {
         listaDeAnimais.add(a4);
         listaDeAnimais.add(a5);
         listaDeAnimais.add(a6);
+
 
         listaDeAnimais.sort(new ComparadorPorId());
         System.out.println("Ordenado por id: ") ;
